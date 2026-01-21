@@ -1,0 +1,26 @@
+.auth {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: var(--bg);
+  color: var(--text);
+}
+.auth__card {
+  width: 100%;
+  max-width: 420px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+}
+h2 { margin: 0 0 8px 0; }
+.small { font-size: 12px; }
+.error {
+  color: var(--error);
+  font-size: 14px;
+}
+.success {
+  color: var(--success);
+  font-size: 14px;
+}
