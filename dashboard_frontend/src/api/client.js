@@ -1,4 +1,5 @@
 const DEFAULT_TOKEN_KEY = process.env.REACT_APP_AUTH_TOKEN_KEY || 'auth_token';
+// Base URL is taken from REACT_APP_API_BASE_URL in .env at build time.
 
 /**
  * Simple API client wrapping fetch with:
